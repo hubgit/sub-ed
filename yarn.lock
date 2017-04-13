@@ -3568,9 +3568,9 @@ style-loader@^0.16.1:
   dependencies:
     loader-utils "^1.0.2"
 
-substance@1.0.0-beta.6:
-  version "1.0.0-beta.6"
-  resolved substance-1.0.0-beta.6.tgz#1abedf663feaaa09f41ede99354b2387679292f0
+substance@1.0.0-beta.6.5:
+  version "1.0.0-beta.6.5"
+  resolved substance-1.0.0-beta.6.5.tgz#0aa591d8e02445c980965c9c3eeb82479f1614ad
   dependencies:
     lodash-es "4.13.1"
 
