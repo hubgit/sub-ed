@@ -194,19 +194,19 @@ module.exports = require("font-awesome/css/font-awesome.css");
 /* 3 */
 /***/ (function(module, exports) {
 
-module.exports = require("substance/css/substance-pagestyle.css");
+module.exports = require("substance/substance-pagestyle.css");
 
 /***/ }),
 /* 4 */
 /***/ (function(module, exports) {
 
-module.exports = require("substance/css/substance-reset.css");
+module.exports = require("substance/substance-reset.css");
 
 /***/ }),
 /* 5 */
 /***/ (function(module, exports) {
 
-module.exports = require("substance/css/substance.css");
+module.exports = require("substance/substance.css");
 
 /***/ }),
 /* 6 */

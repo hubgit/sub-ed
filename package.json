@@ -1,6 +1,6 @@
 {
   "name": "sub-ed",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A React component providing Substance as an HTML editor",
   "main": "dist/index.js",
   "module": "src/index.js",
@@ -25,9 +25,10 @@
   "dependencies": {
     "font-awesome": "^4.7.0",
     "react": "^15.5.4",
-    "substance": "^1.0.0-beta.6.5"
+    "substance": "1.0.0-beta.7-preview.7"
   },
   "devDependencies": {
+    "babel-core": "^6.24.1",
     "babel-eslint": "^7.2.2",
     "babel-loader": "^7.0.0-alpha.3",
     "babel-preset-es2015": "^6.24.1",

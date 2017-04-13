@@ -180,6 +180,30 @@ babel-code-frame@^6.16.0, babel-code-frame@^6.22.0:
     esutils "^2.0.2"
     js-tokens "^3.0.0"
 
+babel-core@^6.24.1:
+  version "6.24.1"
+  resolved babel-core-6.24.1.tgz#8c428564dce1e1f41fb337ec34f4c3b022b5ad83
+  dependencies:
+    babel-code-frame "^6.22.0"
+    babel-generator "^6.24.1"
+    babel-helpers "^6.24.1"
+    babel-messages "^6.23.0"
+    babel-register "^6.24.1"
+    babel-runtime "^6.22.0"
+    babel-template "^6.24.1"
+    babel-traverse "^6.24.1"
+    babel-types "^6.24.1"
+    babylon "^6.11.0"
+    convert-source-map "^1.1.0"
+    debug "^2.1.1"
+    json5 "^0.5.0"
+    lodash "^4.2.0"
+    minimatch "^3.0.2"
+    path-is-absolute "^1.0.0"
+    private "^0.1.6"
+    slash "^1.0.0"
+    source-map "^0.5.0"
+
 babel-eslint@^7.2.2:
   version "7.2.2"
   resolved babel-eslint-7.2.2.tgz#0da2cbe6554fd0fb069f19674f2db2f9c59270ff
@@ -188,6 +212,19 @@ babel-eslint@^7.2.2:
     babel-traverse "^6.23.1"
     babel-types "^6.23.0"
     babylon "^6.16.1"
+
+babel-generator@^6.24.1:
+  version "6.24.1"
+  resolved babel-generator-6.24.1.tgz#e715f486c58ded25649d888944d52aa07c5d9497
+  dependencies:
+    babel-messages "^6.23.0"
+    babel-runtime "^6.22.0"
+    babel-types "^6.24.1"
+    detect-indent "^4.0.0"
+    jsesc "^1.3.0"
+    lodash "^4.2.0"
+    source-map "^0.5.0"
+    trim-right "^1.0.1"
 
 babel-helper-builder-react-jsx@^6.24.1:
   version "6.24.1"
@@ -264,6 +301,13 @@ babel-helper-replace-supers@^6.24.1:
     babel-template "^6.24.1"
     babel-traverse "^6.24.1"
     babel-types "^6.24.1"
+
+babel-helpers@^6.24.1:
+  version "6.24.1"
+  resolved babel-helpers-6.24.1.tgz#3471de9caec388e5c850e597e58a26ddf37602b2
+  dependencies:
+    babel-runtime "^6.22.0"
+    babel-template "^6.24.1"
 
 babel-loader@^7.0.0-alpha.3:
   version "7.0.0-beta.1"
@@ -554,6 +598,18 @@ babel-preset-react@^6.24.1:
     babel-plugin-transform-react-jsx-self "^6.22.0"
     babel-plugin-transform-react-jsx-source "^6.22.0"
     babel-preset-flow "^6.23.0"
+
+babel-register@^6.24.1:
+  version "6.24.1"
+  resolved babel-register-6.24.1.tgz#7e10e13a2f71065bdfad5a1787ba45bca6ded75f
+  dependencies:
+    babel-core "^6.24.1"
+    babel-runtime "^6.22.0"
+    core-js "^2.4.0"
+    home-or-tmp "^2.0.0"
+    lodash "^4.2.0"
+    mkdirp "^0.5.1"
+    source-map-support "^0.4.2"
 
 babel-runtime@^6.18.0, babel-runtime@^6.22.0:
   version "6.23.0"
@@ -873,6 +929,10 @@ contains-path@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/contains-path/-/contains-path-0.1.0.tgz#fe8cf184ff6670b6baef01a9d4861a5cbec4120a"
 
+convert-source-map@^1.1.0:
+  version "1.5.0"
+  resolved convert-source-map-1.5.0.tgz#9acd70851c6d5dfdd93d9282e5edf94a03ff46b5
+
 core-js@^1.0.0:
   version "1.2.7"
   resolved core-js-1.2.7.tgz#652294c14651db28fa93bd2d5ff2983a4f08c636
@@ -1021,6 +1081,12 @@ des.js@^1.0.0:
   dependencies:
     inherits "^2.0.1"
     minimalistic-assert "^1.0.0"
+
+detect-indent@^4.0.0:
+  version "4.0.0"
+  resolved detect-indent-4.0.0.tgz#f76d064352cdf43a1cb6ce619c4ee3a9475de208
+  dependencies:
+    repeating "^2.0.0"
 
 diffie-hellman@^5.0.0:
   version "5.0.2"
@@ -1654,6 +1720,13 @@ hoek@2.x.x:
   version "2.16.3"
   resolved hoek-2.16.3.tgz#20bb7403d3cea398e91dc4710a8ff1b8274a25ed
 
+home-or-tmp@^2.0.0:
+  version "2.0.0"
+  resolved home-or-tmp-2.0.0.tgz#e36c3f2d2cae7d746a857e38d18d5f32a7882db8
+  dependencies:
+    os-homedir "^1.0.0"
+    os-tmpdir "^1.0.1"
+
 hosted-git-info@^2.1.4:
   version "2.4.1"
   resolved hosted-git-info-2.4.1.tgz#4b0445e41c004a8bd1337773a4ff790ca40318c8
@@ -1787,6 +1860,12 @@ is-extglob@^1.0.0:
   version "1.0.0"
   resolved is-extglob-1.0.0.tgz#ac468177c4943405a092fc8f29760c6ffc6206c0
 
+is-finite@^1.0.0:
+  version "1.0.2"
+  resolved is-finite-1.0.2.tgz#cc6677695602be550ef11e8b4aa6305342b6d0aa
+  dependencies:
+    number-is-nan "^1.0.0"
+
 is-fullwidth-code-point@^1.0.0:
   version "1.0.0"
   resolved is-fullwidth-code-point-1.0.0.tgz#ef9e31386f031a7f0d643af82fde50c457ef00cb
@@ -1915,6 +1994,10 @@ js-yaml@^3.5.1:
 jsbn@~0.1.0:
   version "0.1.1"
   resolved jsbn-0.1.1.tgz#a5e654c2e5a2deb5f201d96cefbca80c0ef2f513
+
+jsesc@^1.3.0:
+  version "1.3.0"
+  resolved jsesc-1.3.0.tgz#46c3fec8c1892b12b0833db9bc7622176dbab34b
 
 jsesc@~0.5.0:
   version "0.5.0"
@@ -2299,7 +2382,7 @@ os-locale@^1.4.0:
   dependencies:
     lcid "^1.0.0"
 
-os-tmpdir@^1.0.0:
+os-tmpdir@^1.0.0, os-tmpdir@^1.0.1:
   version "1.0.2"
   resolved os-tmpdir-1.0.2.tgz#bbe67406c79aa85c5cfec766fe5734555dfa1274
 
@@ -2640,6 +2723,12 @@ repeat-string@^1.5.2:
   version "1.6.1"
   resolved repeat-string-1.6.1.tgz#8dcae470e1c88abc2d600fff4a776286da75e637
 
+repeating@^2.0.0:
+  version "2.0.1"
+  resolved repeating-2.0.1.tgz#5214c53a926d3552707527fbab415dbc08d06dda
+  dependencies:
+    is-finite "^1.0.0"
+
 request@^2.81.0:
   version "2.81.0"
   resolved request-2.81.0.tgz#c6928946a0e06c5f8d6f8a9333469ffda46298a0
@@ -2767,6 +2856,10 @@ signal-exit@^3.0.0:
   version "3.0.2"
   resolved signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d
 
+slash@^1.0.0:
+  version "1.0.0"
+  resolved slash-1.0.0.tgz#c41f2f6c39fc16d1cd17ad4b5d896114ae470d55
+
 slice-ansi@0.0.4:
   version "0.0.4"
   resolved slice-ansi-0.0.4.tgz#edbf8903f66f7ce2f8eafd6ceed65e264c831b35
@@ -2781,7 +2874,13 @@ source-list-map@^1.1.1:
   version "1.1.1"
   resolved source-list-map-1.1.1.tgz#1a33ac210ca144d1e561f906ebccab5669ff4cb4
 
-source-map@^0.5.3, source-map@~0.5.1, source-map@~0.5.3:
+source-map-support@^0.4.2:
+  version "0.4.14"
+  resolved source-map-support-0.4.14.tgz#9d4463772598b86271b4f523f6c1f4e02a7d6aef
+  dependencies:
+    source-map "^0.5.6"
+
+source-map@^0.5.0, source-map@^0.5.3, source-map@^0.5.6, source-map@~0.5.1, source-map@~0.5.3:
   version "0.5.6"
   resolved source-map-0.5.6.tgz#75ce38f52bf0733c5a7f0c118d81334a2bb5f412
 
@@ -2907,7 +3006,7 @@ strip-json-comments@~2.0.1:
   version "2.0.1"
   resolved strip-json-comments-2.0.1.tgz#3c531942e908c2697c0ec344858c286c7ca0a60a
 
-substance@^1.0.0-beta.6.5:
+substance@1.0.0-beta.7-preview.7:
   version "1.0.0-beta.7-preview.7"
   resolved substance-1.0.0-beta.7-preview.7.tgz#b0def01ee7f3b1a69c20ef782d74ef3bd4d427a9
   dependencies:
@@ -2991,6 +3090,10 @@ tough-cookie@~2.3.0:
   resolved tough-cookie-2.3.2.tgz#f081f76e4c85720e6c37a5faced737150d84072a
   dependencies:
     punycode "^1.4.1"
+
+trim-right@^1.0.1:
+  version "1.0.1"
+  resolved trim-right-1.0.1.tgz#cb2e1203067e0c8de1f614094b9fe45704ea6003
 
 tryit@^1.0.1:
   version "1.0.3"
