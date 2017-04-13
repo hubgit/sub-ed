@@ -1,5 +1,4 @@
-import ProseEditorPackage from 'substance/packages/prose-editor/ProseEditorPackage'
-import PersistencePackage from 'substance/packages/persistence/PersistencePackage'
+import { ProseEditorPackage, PersistencePackage } from 'substance/dist/substance'
 
 import ArticleImporter from './ArticleImporter'
 import ArticleExporter from './ArticleExporter'

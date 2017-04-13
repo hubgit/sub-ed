@@ -1,4 +1,4 @@
-import HTMLExporter from 'substance/model/HTMLExporter'
+import { HTMLExporter } from 'substance/dist/substance'
 
 export default class ArticleExporter extends HTMLExporter {
   convertDocument (doc) {

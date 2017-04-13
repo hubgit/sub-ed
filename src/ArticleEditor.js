@@ -1,9 +1,5 @@
 import React from 'react'
-
-import EditorSession from 'substance/model/EditorSession'
-import ProseEditor from 'substance/ui/Component'
-
-import Configurator from 'substance/util/Configurator'
+import { EditorSession, ProseEditor, Configurator } from 'substance/dist/substance'
 import ArticlePackage from './ArticlePackage'
 
 const defaultHTML = '<html><body><h1>Untitled</h1></body></html>'

@@ -1,5 +1,4 @@
-import HTMLImporter from 'substance/model/HTMLImporter'
-import ProseArticle from 'substance/packages/prose-editor/ProseArticle'
+import { HTMLImporter, ProseArticle } from 'substance/dist/substance'
 
 export default class ArticleImporter extends HTMLImporter {
   constructor (config) {
