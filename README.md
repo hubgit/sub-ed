@@ -1,5 +1,5 @@
 # sub-ed
-A React component providing Substance as an HTML editor
+A React component providing [Substance](https://github.com/substance/substance) as an HTML editor
 
 ## Usage
 
