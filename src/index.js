@@ -1,6 +1,6 @@
-import 'substance/substance.css'
-import 'substance/substance-reset.css'
-import 'substance/substance-pagestyle.css'
+import 'substance/dist/substance.css'
+import 'substance/dist/substance-reset.css'
+import 'substance/dist/substance-pagestyle.css'
 
 import 'font-awesome/css/font-awesome.css'
 

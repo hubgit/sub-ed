@@ -1,3 +1,4 @@
+module.exports =
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -188,25 +189,25 @@ exports.default = ArticleEditor;
 /* 2 */
 /***/ (function(module, exports) {
 
-module.exports = require("font-awesome/css/font-awesome.css");
+// removed by extract-text-webpack-plugin
 
 /***/ }),
 /* 3 */
 /***/ (function(module, exports) {
 
-module.exports = require("substance/substance-pagestyle.css");
+// removed by extract-text-webpack-plugin
 
 /***/ }),
 /* 4 */
 /***/ (function(module, exports) {
 
-module.exports = require("substance/substance-reset.css");
+// removed by extract-text-webpack-plugin
 
 /***/ }),
 /* 5 */
 /***/ (function(module, exports) {
 
-module.exports = require("substance/substance.css");
+// removed by extract-text-webpack-plugin
 
 /***/ }),
 /* 6 */
